@@ -1,0 +1,12 @@
+<template>
+    <router-view />
+</template>
+
+<script>
+export default ({
+  created() {
+    this.$router.push({ path: '/auth/login' });
+  },
+});
+
+</script>
