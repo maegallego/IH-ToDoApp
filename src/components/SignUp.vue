@@ -30,7 +30,7 @@
             </div>
             <button class='transparent-btn bg-purple' @click="handleSignUp">Sign Up</button>
         </form>
-        <div v-if="errorMessage">
+        <div v-if="errorMessage" class='error'>
           {{ errorMessage }}
         </div>
     </div>
