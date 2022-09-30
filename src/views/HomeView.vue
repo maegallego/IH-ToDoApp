@@ -25,12 +25,6 @@
         </div>
       </div>
     </div>
-    <div v-if='this.tasks.length'>
-      <router-link class='transparent-btn centered-div' to='/#home'>
-        <span class='material-icons'> arrow_upward </span> Return to
-        top</router-link
-      >
-    </div>
   </div>
 </template>
 
