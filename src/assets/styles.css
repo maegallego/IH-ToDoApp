@@ -11,7 +11,7 @@ p {
     color:#857bcd;
 }
 
-.light-grey{
+.light-grey, .urgent, .medium, .high, .low{
     color:#f2f8ff;
 }
 
@@ -110,19 +110,19 @@ nav > a:hover {
 }
 
 .low{
-    background-color: #00ff5652;
+    background-color: #551a8b4d;
 }
 
 .medium{
-    background-color: #f3ff0052;
+    background-color: #551a8b8a;
 }
 
 .high{
-    background-color: #ff2d0052;
+    background-color: #551a8bc4;
 }
 
 .urgent{
-    background-color: #ff2d00c9;
+    background-color: #551a8b;
 }
 /* Button */
 
@@ -232,6 +232,13 @@ textarea {
 .form-input:not(:placeholder-shown) {
     outline: 1px solid #857bcd;
   }
+
+.error{
+    color: red;
+    background-color: #ff000033;
+    padding: 5px;
+    margin: 5px 0;
+}
 
 /* Responsive */
 
