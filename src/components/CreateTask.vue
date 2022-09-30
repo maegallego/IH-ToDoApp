@@ -33,7 +33,7 @@
           </label>
           <button class='transparent-btn bg-purple' @click.prevent='handleNewTask'>Add Task</button>
       </form>
-    <div v-if="errorMessage">
+    <div v-if="errorMessage" class='error'>
         {{ errorMessage }}
     </div>
   </div>
