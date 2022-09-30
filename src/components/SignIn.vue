@@ -24,7 +24,7 @@
           @click="handleSignIn">Sign In</button>
       </form>
   </div>
-  <div v-if="errorMessage">
+  <div v-if="errorMessage" class='error'>
         {{ errorMessage }}
   </div>
 </template>
