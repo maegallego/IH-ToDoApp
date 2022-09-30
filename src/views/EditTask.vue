@@ -50,7 +50,9 @@
             >
               Update
             </button>
-            {{errorMessage}}
+            <div v-if="errorMessage" class='error'>
+              {{errorMessage}}
+            </div>
           </div>
         </form>
       </div>
